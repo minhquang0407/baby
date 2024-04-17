@@ -15,7 +15,7 @@ function fadeIn(){
         !function(i){
             setTimeout(function(){
                 $('.content').find('.animated').eq(i).addClass('fadeIn');
-            },i*500);
+            },i*400);
         }(i);
     }
 };
