@@ -22,9 +22,9 @@ function fadeIn(){
 
 
 
-document.querySelector(".content").onclick=()=>{
-    document.querySelector("#heart").hidden=false
-    document.querySelector("body").style.backgroundColor="#ffffff"
-    document.querySelector("#heart").hidden=false
+document.querySelector("#heart").hidden=false
+document.querySelector("body").style.backgroundColor="#ffffff"
+document.querySelector("#heart").hidden=false
+setTimeout(() => {
     fadeIn()
-}
+  }, 5000);
